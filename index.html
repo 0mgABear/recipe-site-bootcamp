@@ -3,7 +3,73 @@
   <head>
     <title>The Best Recipes!</title>
   </head>
+  <style>
+    img{
+      width:200px;
+      height: 200px;
+      margin-left: 1500px;
+    }
+    form{
+      display: inline;
+    }
+    h1{
+      text-align: center;
+    }
+    button{
+      width: auto;
+      align-items: center ;
+    }
+    p{
+      text-align: center;
+    }
+
+  </style>
+
+
+
   <body>
     <h1>Recipes</h1>
+    <div>
+      <img
+          src="http://www.dammitwhatdoyouwant.co.uk/images/irish-potato-cakes-smoked-salmon.jpg"
+        />
+        <form action="recipe1.html" method="get">
+          <button type="submit">Potato Cakes</button>
+        </form>
+        
+      </div>
+
+      <div>
+      <img class="chicken-rice"
+          src="data:image/jpeg;base64,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"
+        />
+        <form action="recipe2.html" method="get">
+          <button type="submit">Chicken Rice</button>
+        </form>
+        
+      </div>
+
+      <div>
+        <img class = "noodles" src = "https://www.kitchenstories.com/_next/image?url=https%3A%2F%2Fimages.services.kitchenstories.io%2FhGIQ4S-2wDqGafPF90rq_9ZtLBs%3D%2F768x576%2Fimages.kitchenstories.io%2FwagtailOriginalImages%2FR2040-photo-final-1.jpg&w=1440&q=85">
+        <form action="recipe3.html" method="get">
+          <button type="submit">Noodles!</button>
+        </form>
+      </div>
+      <img src = "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F567274.jpg">
+      <form action="recipe4.html" method="get">
+          <button type="submit">Irish Fried Cabbage</button>
+        </form>
+
+      <div>
+        <p><a href="irishfood.html">I want Irish food</a>
+        <a href="singaporefood.html">I want Singapore food</a></p>
+        
+
+      </div>
+
+    
+        
+
+    </ol>
   </body>
 </html>
